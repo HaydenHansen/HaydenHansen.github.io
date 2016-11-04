@@ -6,6 +6,7 @@
     <h1> Sam alone</h1>
       <br />
       Sam needs a friend, he does not have money
+    <div id="myselect"></div>
       <p>
         Sam will pay you to be his friend (not really)  
       </p>
@@ -21,7 +22,11 @@
     <script>
     function sayAnswer(){
     var answer = document.getElementById("answer");
+    var answer2 = document.getElementById("myselect");
       alert(answer.value);
+      alert(answer.value):
+     var myDiv = document.getElementById("myDiv");
+      myDiv.innerHTML = answer.value + "!!!!!";
     }
     </script>
                                 
